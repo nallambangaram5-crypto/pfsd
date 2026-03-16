@@ -1,0 +1,47 @@
+#super{
+    text-align: center;
+    text-transform: capitalize;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+     color: rgba(255, 170, 0, 0.7);
+     font-size: 100px;
+    
+}
+
+#outer{
+    font-size: 25px;
+    height: 50vh;
+    margin: 20px;
+    border: 2px solid green;
+    padding:50px;
+    text-align: center;
+    background-image: url(./images/Pictures/);
+}
+#inner{
+    font-size: 20px;
+ margin: 20px;
+    border: 2px solid green;
+    padding:50px;
+    text-align: center;
+    position:fixed;
+    top: 0;
+    right:0;
+    background-color: black;
+}
+.boxes{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    padding: 100px; ;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+    display: inline-block;
+     background-image:url(./images/creta.jpg);
+     background-size: cover;
+    
+}

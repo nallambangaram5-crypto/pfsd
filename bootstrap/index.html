@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        section {
+            height: 100vh;
+        }
+
+        h1 {
+            margin: 100px;
+        }
+
+        body {
+            background-image: url(./bg-img.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            color: wheat;
+        }
+
+        #skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .skills {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .skills:hover {
+            background-color: black;
+            transition: 2s;
+            transform: scale(0, 1);
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#"><b>NALLAM</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <header>
+        <h1 class="text-center text-info ">
+            <i>portfolio</i>
+        </h1>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-sm-12 col-md-6">
+                        <img src="../images/Pictures/software.jpg" alt=" profile picture" class="img-fluid rounded"
+                            style height="100" width="600" border-radius="50px">
+                    </div>
+                    <div class=" col-sm-12 col-md-6">
+                        <h2>software developer</h2>
+                        <p>I am a passionate software developer with experience in building web applications. software
+                            engineering is my passion. software development is my forte. software testing is my skill.A
+                            software engineer is a professional who applies engineering principles to design, develop,
+                            maintain, test, and evaluate computer software, ensuring high-quality, scalable, and
+                            efficient solutions. They work on applications, systems, and tools to solve complex
+                            problems, often, though not always, requiring proficiency in coding languages, system
+                            design, and, increasingly, AI integration</p>
+                    </div>
+                </div>
+        </section>
+        <section id="about">
+            <h2 style="text-align: center;">about</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm12">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam accusantium deleniti
+                            corporis ipsam voluptatum! Ipsum dignissimos soluta quis ratione! Distinctio similique
+                            exercitationem, possimus minima dolor soluta voluptates explicabo quas animi.</p>
+
+                    </div>
+                    <div class="col-md-6 col-sm12">
+                        <img src="./rohit sharma.jpg" alt=" rohit sharma" style="height: 400; width: 400;">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="skills">html</div>
+            <div class="skills">css</div>
+            <div class="skills">javascipt</div>
+            <div class="skills">python</div>
+            <div class="skills">bootstrap</div>
+            <div class="skills">python</div>
+            <div class="skills">flask</div>
+            <div class="skills">django</div>
+            <div class="skills">mangodb</div>
+            <div class="skills">sql</div>
+            <div class="skills">java</div>
+
+
+        </section>
+        <section id="project">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-3 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class=" col-md-3 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class=" col-md-3 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class=" col-md-3 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </section>
+    </main>"
+    <footer class="bg-secondary p-3 text-center">
+        <h3>&copy; all rights are reserved</h3>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

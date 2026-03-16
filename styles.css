@@ -1,0 +1,16 @@
+ *{
+    background-color:wheat;}
+    #box{
+    background-color: orange; 
+text-align:center ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 50px;
+text-transform: uppercase;}
+.heading{
+    color:blue; text-decoration: overline;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+}   
+button{
+    background-color: green;
+}

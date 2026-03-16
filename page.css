@@ -1,0 +1,35 @@
+#main{
+    border: 2px solid black;
+    padding: 5px;
+    height: 420px;
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;
+     margin:30px;
+}
+#super{
+    border: 2px solid black;
+    padding: 5px;
+    height: 420px;
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;
+     margin:30px;
+}
+#hello{
+    border: 2px solid black;
+    padding: 5px;
+    height: 420px;
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;
+    margin:30px;
+    overflow: auto;
+}   
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin: 10px;
+}

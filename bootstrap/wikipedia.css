@@ -1,0 +1,64 @@
+.container{
+    border:2px;
+    height:100px;
+    background-color:skyblue;
+    padding:5px;
+
+    
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 45px;
+    
+}.class
+{
+    position:relative;
+    right: 5px;
+    bottom: 95px;
+    margin: 1px;
+    padding:5px;
+    display: inline-block;
+    left:1195px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:450px;
+    width: 650px;
+    /* border: 2px; */
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 10px;
+    left: 5px;
+    top:25px;
+    
+}
+#ROHIT{
+    border:2px solid black;
+    height:650px;
+    width:700px;
+    border-radius:8px;
+    position:absolute;
+    right:20px;
+    top:200px;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:20px;
+}
+p{
+    width:50%;
+    /* height: 200px; */
+    font: size 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+   
+}
+
+
